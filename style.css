@@ -1,0 +1,1135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Sofia+Sans:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,400&family=Sofia+Sans:wght@300&family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* -----------------New Home Page--------------- */
+
+.container-new {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/hacker2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-new h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+}
+
+/*-------Contact Page--------*/
+
+.main-container {
+  display: flex;
+}
+
+.heading-tags {
+  padding: 10px 0;
+  font-size: xx-large;
+  font-weight: 600;
+  color: rgb(63, 91, 6);
+}
+
+.contact-container {
+  background-color: rgb(246, 246, 246);
+  height: 100%;
+  padding-left: 40px;
+  width: 100vw;
+}
+
+.contact-container h1 {
+  color: rgb(63, 91, 6);
+  text-align: center;
+  padding: 12px 0;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  margin: 5px;
+}
+
+.star {
+  color: red;
+  padding-left: 0.3rem;
+  font-size: 0.7rem;
+  padding-bottom: 0.6rem;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  color: black;
+  background-color: orangered;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin: 7px 0;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+
+#textarea {
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 15px;
+  background-color: white;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.contact-container input {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 5px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin: 7px 0;
+  font-size: 15px;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  padding: 0 25px;
+}
+
+.follow {
+  margin: 6px 15px;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+span i {
+  margin: 0 5px;
+  cursor: pointer;
+}
+span i.fb {
+  color: blue;
+}
+span i.twit {
+  color: rgb(54, 175, 222);
+}
+span i.insta {
+  color: rgb(203, 45, 45);
+}
+span i.linkdn {
+  color: rgb(35, 35, 150);
+}
+
+span p {
+  padding: 0 55px;
+}
+
+.bottom {
+  padding-bottom: 20px;
+}
+
+/*-----------------About Section---------------*/
+
+/* ---------Education---------- */
+
+.edu {
+  font-size: large;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.school {
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+}
+.clg {
+  font-size: larger;
+  font-family: "Source Sans Pro", sans-serif;
+}
+hr {
+  padding: 1px;
+  margin: 13px 0;
+  background-color: brown;
+  width: 90vw;
+}
+
+.about-details b {
+  font-size: large;
+  color: black;
+}
+.about-container .about-details h5 {
+  font-size: large;
+  color: black;
+  font-weight: 400;
+}
+
+.contactme {
+  color: rgb(10, 7, 164);
+  text-decoration: none;
+}
+
+.lining {
+  padding: 2px;
+  margin: 13px 0;
+  background-color: rgb(74, 14, 14);
+  width: 6%;
+}
+
+.cv-dwnld {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.cv-lining {
+  background-color: black;
+  width: 98%;
+}
+
+.proj {
+  text-decoration: none;
+}
+
+.about-container {
+  background-color: rgb(246, 246, 246);
+  width: 100vw;
+  height: 100%;
+  padding-left: 30px;
+  color: black;
+}
+
+.about-container p {
+  color: black;
+  font-family: sans-serif;
+  margin: 20px 0;
+  padding-right: 40px;
+}
+
+.about-container h2 {
+  margin: 20px 0;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(63, 91, 6);
+}
+
+.about-container h5 {
+  color: rgb(61, 135, 135);
+  font-size: larger;
+  margin: 0 15px;
+  padding: 4px;
+  padding-bottom: 15px;
+}
+
+/*----Footer Section----*/
+
+.contact-foot {
+  height: 12%;
+  background-color: rgb(68, 61, 61);
+  color: white;
+}
+
+.contact-copy-right {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5em;
+  font-size: 90%;
+  letter-spacing: 1px;
+}
+
+.contact-credit {
+  display: flex;
+  justify-content: center;
+  font-size: 90%;
+  letter-spacing: 1px;
+  padding-bottom: 0.2rem;
+}
+
+.heart {
+  color: red;
+  padding: 0 3px;
+  padding-top: 2px;
+}
+
+.contact-heart {
+  padding-top: 4px;
+}
+
+/*---------Media Query upto 365px-----------*/
+
+@media (max-width: 365px) {
+  /* ------------Header------------- */
+  .contact-navbar .navbar-list li a {
+    font-size: smaller;
+    font-weight: 600;
+    font-family: cursive;
+  }
+
+  .contact-navbar .navbar-list li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+  .contact-navbar .navbar-list li a:hover::after {
+    width: 100%;
+  }
+
+  /*----Contact page-Media Query----*/
+  .contact-container {
+    background-color: rgb(246, 246, 246);
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100vw;
+  }
+
+  .main-container {
+    overflow-x: hidden;
+  }
+
+  .btn {
+    width: 90px;
+    height: 30px;
+    color: black;
+    background-color: orangered;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin: 7px 0;
+    margin-bottom: 10px;
+  }
+
+  #textarea {
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 12px;
+    background-color: white;
+    color: gray;
+    margin-bottom: 10px;
+  }
+
+  .contact-container input {
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 5px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    margin: 7px 0;
+    font-size: 15px;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+  }
+
+  span h4 {
+    margin: 3px 3px;
+    font-size: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  span i {
+    margin: 0 7px;
+    cursor: pointer;
+  }
+
+  h1 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    font-family: cursive;
+  }
+
+  .follow {
+    margin: 3px 15px;
+    font-size: 12px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  span i {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  span i.fb {
+    color: blue;
+    font-size: medium;
+    padding-top: 2px;
+  }
+  span i.twit {
+    color: rgb(54, 175, 222);
+    font-size: medium;
+    padding-top: 2px;
+  }
+  span i.insta {
+    color: rgb(203, 45, 45);
+    font-size: medium;
+  }
+  span i.linkdn {
+    color: rgb(35, 35, 150);
+    font-size: medium;
+  }
+
+  span p {
+    padding: 0 55px;
+  }
+
+  .contact-heart {
+    padding-top: 2.5px;
+  }
+
+  /*-----About Page-- Media Query-----*/
+
+  .about-container .edu {
+    font-size: medium;
+    font-family: "Sofia Sans", sans-serif;
+  }
+
+  .about-container .school {
+    font-size: small;
+    font-family: "Montserrat", sans-serif;
+  }
+  .about-container .clg {
+    font-size: large;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .about-container hr {
+    padding: 1px;
+    margin: 13px 0;
+    background-color: brown;
+    width: 95%;
+  }
+
+  .about-details h5 b {
+    font-size: large;
+    color: black;
+  }
+
+  .about-details h5 {
+    font-size: large;
+    color: black;
+    font-weight: 400;
+  }
+  .about-container .lining {
+    padding: 1px;
+    margin: 13px 0;
+    background-color: rgb(54, 11, 11);
+    width: 10%;
+  }
+
+  .about-container .cv-dwnld {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .about-container .cv-lining {
+    background-color: black;
+    width: 95%;
+  }
+  .clg {
+    padding-right: 20px;
+  }
+
+  .main-container {
+    height: 100%;
+  }
+  .about-container {
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 0 30px 20px;
+  }
+
+  .about-container p {
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 15px 0;
+  }
+
+  .about-container h2 {
+    margin: 15px 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 91, 6);
+  }
+
+  .about-container h5 {
+    color: rgb(61, 135, 135);
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 4px;
+    padding-bottom: 10px;
+  }
+
+  /*----Home Page-Media Query----*/
+
+  .container-new {
+    width: 100%;
+    height: 80vh;
+    background-image: url("/hacker3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-new h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+  }
+
+  /*----Footer-Media Query----*/
+
+  .contact-foot {
+    height: 10%;
+    background-color: rgb(68, 61, 61);
+    color: white;
+    overflow-y: hidden;
+  }
+
+  .contact-copy-right {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.7em;
+    font-size: 60%;
+    letter-spacing: 1px;
+  }
+
+  .contact-credit {
+    display: flex;
+    justify-content: center;
+    font-size: 60%;
+    letter-spacing: 1px;
+    padding-bottom: 0;
+  }
+}
+
+/*---------Media Query from 365px to 645px---------*/
+
+@media (min-width: 365px) and (max-width: 650px) {
+  /*------------- Header------------- */
+  .contact-navbar .navbar-list li a {
+    font-size: medium;
+    font-weight: 600;
+    font-family: cursive;
+  }
+
+  .contact-navbar .navbar-list li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+  .contact-navbar .navbar-list li a:hover::after {
+    width: 100%;
+  }
+
+  /*----Contact page-Media Query----*/
+  .contact-container {
+    background-color: rgb(246, 246, 246);
+    height: 100%;
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .main-container {
+    overflow-x: hidden;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+  }
+
+  span h4 {
+    margin: 6px 5px;
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  span i {
+    margin: 0 7px;
+    cursor: pointer;
+  }
+
+  span p {
+    padding: 0 15px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0;
+    font-family: cursive;
+  }
+
+  /*-----About Page-- Media Query-----*/
+
+  .main-container {
+    height: 100%;
+  }
+  .about-container {
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 0 30px 20px;
+  }
+
+  .about-container p {
+    color: black;
+    font-family: sans-serif;
+    margin: 15px 0;
+  }
+
+  .about-container h2 {
+    margin: 20px 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 91, 6);
+  }
+
+  .about-container h5 {
+    color: rgb(61, 135, 135);
+    font-size: 15px;
+    margin: 0 15px;
+    padding: 4px;
+    padding-bottom: 15px;
+  }
+
+  .about-container .lining {
+    padding: 1px;
+    margin: 13px 0;
+    background-color: rgb(54, 11, 11);
+    width: 10%;
+  }
+  .about-container hr {
+    padding: 1px;
+    margin: 13px 0;
+    background-color: brown;
+    width: 95%;
+  }
+
+  .about-container .cv-lining {
+    background-color: black;
+    width: 95%;
+  }
+  .clg {
+    padding-right: 20px;
+  }
+
+  /*----Home Page-Media Query----*/
+
+  .container-new {
+    width: 100%;
+    height: 80vh;
+    background-image: url("/hacker3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-new h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+  }
+}
+
+/*----------Media Query from 653px to 820px---------*/
+
+@media (min-width: 653px) and (max-width: 820px) {
+  /*------------- Header------------- */
+  .contact-navbar .navbar-list li a {
+    font-size: large;
+    font-weight: 700;
+    font-family: cursive;
+  }
+
+  .contact-navbar .navbar-list li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+  .contact-navbar .navbar-list li a:hover::after {
+    width: 100%;
+  }
+
+  /*----Contact page-Media Query----*/
+  .contact-container {
+    background-color: rgb(246, 246, 246);
+    height: 100%;
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .main-container {
+    overflow-x: hidden;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+  }
+
+  span h4 {
+    margin: 6px 5px;
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  span i {
+    margin: 0 7px;
+    cursor: pointer;
+  }
+
+  span p {
+    padding: 0 15px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0;
+    font-family: cursive;
+  }
+
+  /*-----About Page-- Media Query-----*/
+
+  .main-container {
+    height: 100%;
+  }
+  .about-container {
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 0 30px 20px;
+  }
+
+  .about-container p {
+    color: black;
+    font-family: sans-serif;
+    margin: 15px 0;
+  }
+
+  .about-container h2 {
+    margin: 20px 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 91, 6);
+  }
+
+  .about-container h5 {
+    color: rgb(61, 135, 135);
+    font-size: 15px;
+    margin: 0 15px;
+    padding: 4px;
+    padding-bottom: 15px;
+  }
+
+  .about-container .lining {
+    padding: 1px;
+    margin: 13px 0;
+    background-color: rgb(54, 11, 11);
+    width: 10%;
+  }
+  .about-container hr {
+    padding: 1px;
+    margin: 13px 0;
+    background-color: brown;
+    width: 95%;
+  }
+
+  .about-container .cv-lining {
+    background-color: black;
+    width: 95%;
+  }
+  .clg {
+    padding-right: 20px;
+  }
+
+  /*----Home Page-Media Query----*/
+
+  .container-new {
+    width: 100%;
+    height: 80vh;
+    background-image: url("/hacker2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-new h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+  }
+}
+
+/*-------------Media Query- height 768 0nwards------------*/
+
+@media (min-height: 768px) {
+  /*----Contact page-Media Query----*/
+  .contact-container {
+    background-color: rgb(246, 246, 246);
+    height: 100%;
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .main-container {
+    overflow-x: hidden;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+  }
+
+  span h4 {
+    margin: 6px 5px;
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  span i {
+    margin: 0 7px;
+    cursor: pointer;
+  }
+
+  span p {
+    padding: 0 15px;
+  }
+
+  h1 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0;
+    font-family: cursive;
+  }
+
+  /*-----About Page-- Media Query-----*/
+
+  .main-container {
+    height: 100%;
+  }
+  .about-container {
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 0 30px 20px;
+  }
+
+  .about-container p {
+    color: black;
+    font-family: sans-serif;
+    margin: 15px 0;
+  }
+
+  .about-container h2 {
+    margin: 20px 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 91, 6);
+  }
+
+  .about-container h5 {
+    color: rgb(61, 135, 135);
+    font-size: 15px;
+    margin: 0 15px;
+    padding: 4px;
+    padding-bottom: 15px;
+  }
+
+  .about-container .lining {
+    padding: 1px;
+    margin: 13px 0;
+    background-color: rgb(54, 11, 11);
+    width: 10%;
+  }
+  .about-container hr {
+    padding: 1px;
+    margin: 13px 0;
+    background-color: brown;
+    width: 95%;
+  }
+
+  .about-container .cv-lining {
+    background-color: black;
+    width: 95%;
+  }
+  .clg {
+    padding-right: 20px;
+  }
+}
+
+/* -----------------------------Navbar Style------------------------------ */
+html {
+  overflow-x: hidden;
+}
+.header {
+  padding: 0 4.8rem;
+  margin-bottom: 1px;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gainsboro;
+  position: relative;
+}
+
+.logo {
+  color: brown;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.navbar-list a {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
+  transition: all 0.3s;
+}
+
+.navbar-list a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.navbar-list a:hover::after {
+  width: 100%;
+}
+
+.navbar-list a:hover {
+  color: rgb(45, 45, 147);
+}
+
+.mobile-nav-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: black;
+}
+
+.mobile-navbar-btn {
+  display: none;
+  background: transparent;
+  cursor: pointer;
+  color: black;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+.contact-navbar {
+  font-family: sans-serif;
+}
+.contact-logo {
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+/* -------Media Query for Nav-Bar -------- */
+@media (max-width: 62em) {
+  .mobile-navbar-btn {
+    display: block;
+  }
+  .logo {
+    font-size: larger;
+    margin-left: 13px;
+  }
+  .contact-logo {
+    font-size: larger;
+    margin-left: 13px;
+  }
+  .navbar {
+    width: 50%;
+    height: 100vh;
+    font-size: medium;
+    background-color: rgb(240, 223, 223);
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 25%;
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .contact-navbar {
+    width: 50%;
+    height: 100vh;
+    font-size: medium;
+    background-color: rgb(240, 223, 223);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 25%;
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile-nav-icon {
+    margin-right: -10px;
+  }
+
+  .active .navbar {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+    display: block;
+    color: rgb(117, 4, 4);
+    position: fixed;
+    right: 20px;
+    top: 10px;
+  }
+  .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+    display: none;
+  }
+}
+
+/* ---------------Media Query for NavBar---------------- */
+@media (max-width: 35em) {
+  .header {
+    padding: 0 1.5rem;
+  }
+}
+
+/* ---------------Media Query for NavBar---------------- */
+@media (max-width: 18em) {
+  .logo {
+    font-size: medium;
+  }
+  .contact-logo {
+    font-size: medium;
+  }
+}
+
+/* -------------Scroll Button---------------- */
+
+#btnScrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e62739;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+#btnScrollToTop:active {
+  background: #cc2333;
+}
+
+.space {
+  height: 6vh;
+  background-color: rgb(246, 246, 246);
+}
